@@ -7,8 +7,3 @@ pkgs.mkShell {
     (texlive.combine { inherit (texlive) scheme-small titlesec; })
   ];
 }
-
-
-
-
-
