@@ -1,8 +1,8 @@
 cv.pdf:
-	pandoc -H style.tex cv.md -o cv.pdf
+	cat cv.md | sed -e 's/::/$$\\\hfill$$/' | pandoc -H style.tex -o cv.pdf
 
 cv-simple.pdf:
-	pandoc cv.md -o cv.pdf
+	cat cv.md | sed -e 's/::/$$\\\hfill$$/' | pandoc -o cv.pdf
 
 clean:
 	rm -f cv.pdf cv-simple.pdf
