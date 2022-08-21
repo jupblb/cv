@@ -1,8 +1,11 @@
 cv.pdf:
-	cat cv.md | sed -e 's/::/$$\\\hfill$$/' | pandoc -H style.tex -o cv.pdf
+	cat cv.md | \
+		sed -e 's/\s\{3,\}/ $$\\\hfill$$ /' | \
+		sed -e 's/\(-\{5,\}\)/$$\\vspace*{\\fill}$$\n\1/' | \
+		pandoc -H style.tex -o cv.pdf
 
 cv-simple.pdf:
-	cat cv.md | sed -e 's/::/$$\\\hfill$$/' | pandoc -o cv.pdf
+	cat cv.md | sed -e 's/\s\{3,\}/ $$\\\hfill$$ /' | pandoc -o cv.pdf
 
 clean:
 	rm -f cv.pdf cv-simple.pdf
