@@ -96,13 +96,13 @@ had a lot of fun in those years!
 
 ### Currently involved
 
-| Languages: Go, Nix, Python
-| Tools: Bazel, GCP, git, Kubernetes, NixOS, Shell scripting
+Languages: Go, Nix, Python\
+Tools: Bazel, GCP, git, Kubernetes, NixOS, Shell scripting
 
 ### Past experiences
 
-| Languages: C, Java, JavaScript, Scala
-| Tools: Apache Spark, AWS, PostgreSQL, React
+Languages: C, Java, JavaScript, Scala\
+Tools: Apache Spark, AWS, PostgreSQL, React
 
 --------------------------------------------------------------------------------
 
