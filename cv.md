@@ -104,8 +104,6 @@ had a lot of fun in those years!
 | Languages: C, Java, JavaScript, Scala
 | Tools: Apache Spark, AWS, PostgreSQL, React
 
-$\vspace*{\fill}$
-
 --------------------------------------------------------------------------------
 
 I hereby give consent for my personal data included in my application to be
