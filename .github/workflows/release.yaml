@@ -9,7 +9,7 @@ jobs:
     - uses: cachix/install-nix-action@v18
       with:
         nix_path: nixpkgs=channel:nixos-unstable
-    - run: nix-shell --run "make all"
+    - run: nix-shell --run "make cv.pdf"
     - uses: softprops/action-gh-release@v1
       with:
         tag_name: latest
