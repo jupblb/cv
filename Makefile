@@ -7,10 +7,12 @@ cv.pdf: cv.md
 cv-simple.pdf: cv.md
 	cat cv.md | sed -e 's/::/$$\\\hfill$$/' | pandoc -o cv.pdf
 
+all: cv.pdf cv-simple.pdf
+
 clean:
 	rm -f cv.pdf cv-simple.pdf
 
 format:
 	pandoc -f markdown -s -t markdown --columns=80 cv.md -o cv.md
 
-.PHONY: clean format
+.PHONY: all clean format
