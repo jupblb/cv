@@ -14,20 +14,29 @@ title-meta: Michal Kielbowicz CV
 
 ## Experience
 
-### 08.2020-Present :: Software Developer, Google
+### 08.2020-Present :: Software Engineer, Google
 
-1.  04.2021-Present :: **Google Kubernetes Engine - Scalability**
+1.  04.2023-Present :: **Google.org MicroMentor**
 
-    My team works on GKE scaling capabilities. We debug any issues of that type
-    occurring in a Kubernetes release and coordinate efforts that push the
-    limits even further. My contributions range from developing internal tools
-    for our testing infrastructure up to working on OSS Kubernetes internals.
-    Also got a top score on our pinball machine.
+    Working on a next-gen platform enabling underrepresented entrepreneurs from
+    MENA territory to seek mentorship when establishing their own businesses.
+    This project is a part of Google.org under partnership with MicroMentor
+    non-profit.
 
-2.  08.2020-03.2021 :: **Cloud Data Catalog**
+2.  04.2021-04.2023 :: **Google Kubernetes Engine - Scalability**
+
+    Let's say a single Kubernetes node costs \$1/h. Now imagine a cluster of
+    15,000 nodes. Actually, let's have multiple such clusters and each of them
+    will run with different features (ipv6, windows nodes, various load
+    balancing strategies, etc.). My team ensured such setups are supported and
+    carried out work that made Kubernetes even more scalable. Because of us GKE
+    is a top product when it comes to stable execution of large and expensive
+    workloads.
+
+3.  08.2020-03.2021 :: **Cloud Data Catalog**
 
     Co-implemented a major framework that enables automatic metadata
-    synchronisation with multiple Google services, such as Cloud Dataplex. It
+    synchronization with multiple Google services, such as Cloud Dataplex. It
     reduced the cost of adding such integration ten times against what we had
     before.
 
@@ -46,7 +55,7 @@ runtime chaos.
 
 ### 02.2017-07.2017 :: Thesis Student, SAP
 
-Created a brand new system managing resources for Spark Streaming. The solution
+Created a brand-new system managing resources for Spark Streaming. The solution
 was somewhat superior in results to the default one developed by Databricks -
 both in terms of cluster usage and Quality of Service. This also taught me about
 Spark's internal algorithms.
@@ -54,7 +63,7 @@ Spark's internal algorithms.
 ### 07.2016-09.2016 :: Software Development Engineering Intern, Amazon
 
 Worked with the Automated Talent Sourcing team on their candidate processing
-platform. Learned Big Data toolset and refreshed Java skills in an awesome job
+platform. Learned Big Data tool set and refreshed Java skills in an awesome job
 environment.
 
 ### 01.2016-06.2016 :: Software Developer, BrightIT
@@ -96,10 +105,10 @@ had a lot of fun in those years!
 
 ### Currently involved
 
-Languages: Go, Nix, Python\
-Tools: Bazel, GCP, git, Kubernetes, NixOS, Shell scripting
+Languages: Dart, Go, Nix, Python\
+Tools: Bazel, GCP, git, Flutter, Kubernetes, NixOS, Shell scripting
 
-### Past experiences
+### Had some fun with in the past
 
 Languages: C, Java, JavaScript, Scala\
 Tools: Apache Spark, AWS, PostgreSQL, React
