@@ -14,75 +14,73 @@ title-meta: Michal Kielbowicz CV
 
 ## Experience
 
-### 08.2020-Present :: Software Engineer, Google
+### Software Engineer, Waymo :: 10.2023-Present
 
-1.  10.2023-Present :: Waymo
+Moving accross entire stack of Waymo One. Initially worked on adding support for
+new payment methods (most notably Google Pay) in the mobile app and payment
+processors in our backend. Currently involved in designing and building a system
+for fraud detection.
 
-2.  04.2023-10.2023 :: **Google.org MicroMentor**
+### Software Engineer, Google :: 08.2020-10.2023
+
+1.  **Google.org (MicroMentor)** :: 04.2023-10.2023
 
     Worked on a next-gen platform enabling underrepresented entrepreneurs from
     MENA territory to seek mentorship when establishing their own businesses.
-    This project is a part of Google.org under partnership with MicroMentor
-    non-profit.
 
-3.  04.2021-04.2023 :: **Google Kubernetes Engine - Scalability**
+2.  **Google Kubernetes Engine** :: 04.2021-04.2023
 
     Let’s say a single Kubernetes node costs \$1/h. Now imagine a cluster of
-    15,000 nodes. Actually, let’s have multiple such clusters and each of them
-    will run with different features (ipv6, windows nodes, various load
-    balancing strategies, etc.). My team ensured such setups are supported and
-    carried out work that made Kubernetes even more scalable. Because of us GKE
-    is a top product when it comes to stable execution of large and expensive
-    workloads.
+    15,000 nodes. Actually, let’s have multiple such clusters, each with
+    different features enabled. My team ensured such setups are supported and
+    made Kubernetes even more scalable.
 
-4.  08.2020-03.2021 :: **Cloud Data Catalog**
+3.  **Cloud Data Catalog** :: 08.2020-03.2021
 
     Co-implemented a major framework that enables automatic metadata
     synchronization with multiple Google services, such as Cloud Dataplex. It
     reduced the cost of adding such integration ten times against what we had
     before.
 
-### 02.2018-06.2020 :: Software Developer, TravelTime
+### Software Developer, TravelTime :: 02.2018-06.2020
 
 Worked on a GIS API that is based on measuring distance by time. Took ownership
 of maintaining a project capable of calculating travel times between 1 and
 100,000 points under 200ms. Wrote a tool that reduced map parsing time from
 three weeks to two days.
 
-### 09.2017-02.2018 :: Software Development Specialist, Nokia Networks
+### Software Development Specialist, Nokia Networks :: 09.2017-02.2018
 
 Developed telecommunication data ETL and KPI representation. This involved heavy
 exploitation of Zeppelin capabilities while feeling the burden of Spark’s
 runtime chaos.
 
-### 02.2017-07.2017 :: Thesis Student, SAP
+### Thesis Student, SAP :: 02.2017-07.2017
 
-Created a brand-new system managing resources for Spark Streaming. The solution
-was somewhat superior in results to the default one developed by Databricks -
-both in terms of cluster usage and Quality of Service. This also taught me about
-Spark’s internal algorithms.
+Created a brand-new system managing compute resources for Spark Streaming. My
+solution performed a bit better than the default one developed by Databricks.
 
-### 07.2016-09.2016 :: Software Development Engineering Intern, Amazon
+### Software Development Engineering Intern, Amazon :: 07.2016-09.2016
 
 Worked with the Automated Talent Sourcing team on their candidate processing
-platform. Learned Big Data tool set and refreshed Java skills in an awesome job
+platform. Learned Big Data toolchain and refreshed Java skills in an awesome job
 environment.
 
-### 01.2016-06.2016 :: Software Developer, BrightIT
+### Software Developer, BrightIT :: 01.2016-06.2016
 
 Crafted enterprise-level websites with HP Teamsite, HP Idol, Scala, Play,
 Docker, Puppet, Varnish, Vagrant, XSLT, etc. Learned how to work under pressure
 with new technologies and issues constantly coming up. Introduced foosball and
 Travis CI to the company’s workflow.
 
-### 06.2015-11.2015 :: Intern, ABB
+### Intern, ABB :: 06.2015-11.2015
 
 Rewritten legacy code of an optimization system that not only used GWT but was
 also full of french variable names. Insisted on using technologies that I had no
 idea about which allowed me to learn Scala and React. Collaborated with
 scientists on project’s architecture.
 
-### 07.2014-05.2015 :: Working Student, Nokia Networks
+### Working Student, Nokia Networks :: 07.2014-05.2015
 
 Worked on an application that was tracking changes made inside XML files that
 were distributed over several VCSs. Got really burned during the first code
@@ -91,29 +89,32 @@ was also a valuable lesson.
 
 ## Education
 
-### 10.2021-Present :: Psychology, Bachelor of Science
+### Psychology, Bachelor of Science :: 10.2021-07.2024
 
-Learning at SWPS University of Social Sciences and Humanities.
+Graduated from SWPS University (Warsaw). Finished entire coursework without
+delays in parallel to changing jobs, moving to a new city and having a child.
+With this achievement I definitely have to share credit with my wife who did a
+lot to support me.
 
-### 10.2012-09.2017 :: Computer Science, Master of Engineering
+### Computer Science, Master of Engineering :: 10.2012-09.2017
 
 Graduated from Wroclaw University of Science and Technology. Wrote Master Thesis
-about optimizing resource usage in Apache Spark Streaming. Also finished the
-Bachelor studies at the same university and took 6th place in TOP 10 graduates
-ranking. Participated in numerous programming contests (up to finals). Overall,
-had a lot of fun in those years!
+about optimizing resource usage in Apache Spark Streaming. Also took 6th place
+in TOP 10 graduates ranking. Participated in numerous programming contests (up
+to finals).
 
-## Skills
+## Technologies
 
-### Currently involved
+### Currently used ::
 
-Languages: Dart, Go, Nix, Python
-Tools: Bazel, GCP, git, Flutter, Kubernetes, NixOS, Shell scripting
+Languages: C++, Java, Lua, Kotlin, Nix, Python  
+Tools: Bazel, git, Neovim, NixOS, Shell scripting
 
-### Had some fun with in the past
+### Had experience in the past (selected subset) ::
 
-Languages: C, Java, JavaScript, Scala  
-Tools: Apache Spark, AWS, PostgreSQL, React
+Languages: Dart, Go, JavaScript, Scala  
+Tools: Apache Spark, AWS, GCP, Flutter, Kubernetes, Play Framework, PostgreSQL,
+React
 
 --------------------------------------------------------------------------------
 
