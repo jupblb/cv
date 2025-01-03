@@ -11,6 +11,4 @@ various document types.
 ``` sh
 # Default choice
 $ make cv.pdf
-# Same but without inserting style.tex
-$ make cv-simple.pdf
 ```
