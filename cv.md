@@ -16,24 +16,26 @@ title-meta: Michal Kielbowicz CV
 
 ### 08.2020-Present :: Software Engineer, Google
 
-1.  04.2023-Present :: **Google.org MicroMentor**
+1.  10.2023-Present :: Waymo
 
-    Working on a next-gen platform enabling underrepresented entrepreneurs from
+2.  04.2023-10.2023 :: **Google.org MicroMentor**
+
+    Worked on a next-gen platform enabling underrepresented entrepreneurs from
     MENA territory to seek mentorship when establishing their own businesses.
     This project is a part of Google.org under partnership with MicroMentor
     non-profit.
 
-2.  04.2021-04.2023 :: **Google Kubernetes Engine - Scalability**
+3.  04.2021-04.2023 :: **Google Kubernetes Engine - Scalability**
 
-    Let's say a single Kubernetes node costs \$1/h. Now imagine a cluster of
-    15,000 nodes. Actually, let's have multiple such clusters and each of them
+    Let’s say a single Kubernetes node costs \$1/h. Now imagine a cluster of
+    15,000 nodes. Actually, let’s have multiple such clusters and each of them
     will run with different features (ipv6, windows nodes, various load
     balancing strategies, etc.). My team ensured such setups are supported and
     carried out work that made Kubernetes even more scalable. Because of us GKE
     is a top product when it comes to stable execution of large and expensive
     workloads.
 
-3.  08.2020-03.2021 :: **Cloud Data Catalog**
+4.  08.2020-03.2021 :: **Cloud Data Catalog**
 
     Co-implemented a major framework that enables automatic metadata
     synchronization with multiple Google services, such as Cloud Dataplex. It
@@ -50,7 +52,7 @@ three weeks to two days.
 ### 09.2017-02.2018 :: Software Development Specialist, Nokia Networks
 
 Developed telecommunication data ETL and KPI representation. This involved heavy
-exploitation of Zeppelin capabilities while feeling the burden of Spark's
+exploitation of Zeppelin capabilities while feeling the burden of Spark’s
 runtime chaos.
 
 ### 02.2017-07.2017 :: Thesis Student, SAP
@@ -58,7 +60,7 @@ runtime chaos.
 Created a brand-new system managing resources for Spark Streaming. The solution
 was somewhat superior in results to the default one developed by Databricks -
 both in terms of cluster usage and Quality of Service. This also taught me about
-Spark's internal algorithms.
+Spark’s internal algorithms.
 
 ### 07.2016-09.2016 :: Software Development Engineering Intern, Amazon
 
@@ -71,14 +73,14 @@ environment.
 Crafted enterprise-level websites with HP Teamsite, HP Idol, Scala, Play,
 Docker, Puppet, Varnish, Vagrant, XSLT, etc. Learned how to work under pressure
 with new technologies and issues constantly coming up. Introduced foosball and
-Travis CI to the company's workflow.
+Travis CI to the company’s workflow.
 
 ### 06.2015-11.2015 :: Intern, ABB
 
 Rewritten legacy code of an optimization system that not only used GWT but was
 also full of french variable names. Insisted on using technologies that I had no
 idea about which allowed me to learn Scala and React. Collaborated with
-scientists on project's architecture.
+scientists on project’s architecture.
 
 ### 07.2014-05.2015 :: Working Student, Nokia Networks
 
@@ -105,12 +107,12 @@ had a lot of fun in those years!
 
 ### Currently involved
 
-Languages: Dart, Go, Nix, Python\
+Languages: Dart, Go, Nix, Python
 Tools: Bazel, GCP, git, Flutter, Kubernetes, NixOS, Shell scripting
 
 ### Had some fun with in the past
 
-Languages: C, Java, JavaScript, Scala\
+Languages: C, Java, JavaScript, Scala  
 Tools: Apache Spark, AWS, PostgreSQL, React
 
 --------------------------------------------------------------------------------
