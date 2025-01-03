@@ -16,8 +16,8 @@ title-meta: Michal Kielbowicz CV
 
 ### Software Engineer, Waymo :: 10.2023-Present
 
-Moving accross entire stack of Waymo One. Initially worked on adding support for
-new payment methods (most notably Google Pay) in the mobile app and payment
+Moving across an entire stack of Waymo One. Initially worked on adding support
+for new payment methods (most notably Google Pay) in the mobile app and payment
 processors in our backend. Currently involved in designing and building a system
 for fraud detection.
 
