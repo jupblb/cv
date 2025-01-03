@@ -5,7 +5,7 @@ cv.pdf: cv.md
 		pandoc -H style.tex -o cv.pdf
 
 clean:
-	rm -f cv.pdf
+	rm -f *.pdf
 
 format:
 	pandoc -f markdown -s -t markdown --columns=80 cv.md -o cv.md
