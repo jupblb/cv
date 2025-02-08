@@ -25,8 +25,9 @@ device-level banning.
 
 1.  **Google.org (MicroMentor)** :: 04.2023-10.2023
 
-    Worked on a next-gen platform enabling underrepresented entrepreneurs from
-    MENA territory to seek mentorship when establishing their own businesses.
+    Worked on a cross-platform mobile app enabling underrepresented
+    entrepreneurs from MENA territory to seek mentorship when establishing their
+    own businesses.
 
 2.  **Google Kubernetes Engine** :: 04.2021-04.2023
 
@@ -108,7 +109,7 @@ to finals).
 ### Currently used ::
 
 Languages: C++, Java, Lua, Kotlin, Nix, Python  
-Tools: Bazel, git, Neovim, NixOS, Shell scripting
+Tools: Bazel, Neovim, NixOS, Shell scripting
 
 ### Had experience in the past (selected subset) ::
 
