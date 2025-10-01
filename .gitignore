@@ -1,4 +1,4 @@
-cv.pdf
-cv-simple.pdf
+cv*.pdf
 
-.direnv
+/.direnv
+/.envrc
