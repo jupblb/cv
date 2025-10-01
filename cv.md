@@ -16,14 +16,13 @@ title-meta: Michal Kielbowicz CV
 
 ### Software Engineer, Sourcegraph :: 08.2025-Present
 
-Everything is changing. I'm back working at a small company! My main
-responsibility is work on code navigation features of our code search product.
-In my spare time I hack on our AI agent tool, amp, which is the coolest piece
-of developer tooling I've ever used.
+Recently joined a dynamic startup environment. Primary focus on code navigation
+features for our code search product, with additional contributions to Amp, our
+AI agent tool.
 
 ### Software Engineer, Waymo :: 10.2023-07.2025
 
-Moved across the entire stack of Waymo One. Initially worked on adding support
+Delivered full-stack features for Waymo One. Initially worked on adding support
 for new payment methods (most notably Google Pay) and payment processors. Later
 involved in designing and building a system for fraud detection and device-level
 banning.
@@ -38,29 +37,27 @@ banning.
 
 2.  **Google Kubernetes Engine** :: 04.2021-04.2023
 
-    Let’s say a single Kubernetes node costs \$1/h. Now imagine a cluster of
-    15,000 nodes. Actually, let’s have multiple such clusters, each with
-    different features enabled. My team ensured such setups are supported and
-    made Kubernetes even more scalable.
+    Ensured Kubernetes scalability for clusters exceeding 15,000 nodes with
+    diverse feature configurations. Debugged large-scale issues and developed
+    test infrastructure to support such massive deployments.
 
 3.  **Cloud Data Catalog** :: 08.2020-03.2021
 
     Co-implemented a major framework that enables automatic metadata
     synchronization with multiple Google services, such as Cloud Dataplex. It
-    reduced the cost of adding such integration ten times against what we had
+    reduced the cost of adding such integration tenfold against what we had
     before.
 
 ### Software Developer, TravelTime :: 02.2018-06.2020
 
-Worked on a GIS API that is based on measuring distance by time. Took ownership
-of maintaining a project capable of calculating travel times between 1 and
-100,000 points under 200ms. Wrote a tool that reduced map parsing time from
-three weeks to two days.
+Owned and optimized a project calculating travel times between 1 and 100,000
+points under 200ms. Wrote a tool reducing map parsing time from three weeks to
+two days.
 
 ### Software Development Specialist, Nokia Networks :: 09.2017-02.2018
 
 Developed telecommunication data ETL and KPI representation. This involved heavy
-exploitation of Zeppelin capabilities while feeling the burden of Spark’s
+exploitation of Zeppelin capabilities while feeling the burden of Spark's
 runtime chaos.
 
 ### Older positions :: 07.2014-07.2017
@@ -92,11 +89,12 @@ to finals).
 ### Currently used ::
 
 Languages: Go, Lua, Nix  
-Tools: Amp, Bazel, GCP, Neovim, NixOS, Shell scripting
+Tools: Amp, Bazel, GCP, gRPC, NixOS, Podman, Protocol Buffers, Shell scripting
 
 ### Had experience in the past (selected subset) ::
 
-Languages: C++, Dart, Java, JavaScript, Typescript, Kotlin, Python, Scala  
+Languages: C++, Dart, Java, JavaScript, Typescript, Kotlin, Python, Scala,
+Spanner  
 Tools: Apache Spark, AWS, Flutter, Kubernetes, Play Framework, PostgreSQL, React
 
 --------------------------------------------------------------------------------
