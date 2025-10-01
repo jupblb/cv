@@ -14,12 +14,19 @@ title-meta: Michal Kielbowicz CV
 
 ## Experience
 
-### Software Engineer, Waymo :: 10.2023-Present
+### Software Engineer, Sourcegraph :: 08.2025-Present
 
-Moving across an entire stack of Waymo One. Initially worked on adding support
-for new payment methods (most notably Google Pay) and payment processors.
-Currently involved in designing and building a system for fraud detection and
-device-level banning.
+Everything is changing. I'm back working at a small company! My main
+responsibility is work on code navigation features of our code search product.
+In my spare time I hack on our AI agent tool, amp, which is the coolest piece
+of developer tooling I've ever used.
+
+### Software Engineer, Waymo :: 10.2023-07.2025
+
+Moved across the entire stack of Waymo One. Initially worked on adding support
+for new payment methods (most notably Google Pay) and payment processors. Later
+involved in designing and building a system for fraud detection and device-level
+banning.
 
 ### Software Engineer, Google :: 08.2020-10.2023
 
@@ -56,37 +63,13 @@ Developed telecommunication data ETL and KPI representation. This involved heavy
 exploitation of Zeppelin capabilities while feeling the burden of Spark’s
 runtime chaos.
 
-### Thesis Student, SAP :: 02.2017-07.2017
+### Older positions :: 07.2014-07.2017
 
-Created a brand-new system managing compute resources for Spark Streaming. My
-solution performed a bit better than the default one developed by Databricks.
-
-### Software Development Engineering Intern, Amazon :: 07.2016-09.2016
-
-Worked with the Automated Talent Sourcing team on their candidate processing
-platform. Learned Big Data toolchain and refreshed Java skills in an awesome job
-environment.
-
-### Software Developer, BrightIT :: 01.2016-06.2016
-
-Crafted enterprise-level websites with HP Teamsite, HP Idol, Scala, Play,
-Docker, Puppet, Varnish, Vagrant, XSLT, etc. Learned how to work under pressure
-with new technologies and issues constantly coming up. Introduced foosball and
-Travis CI to the company’s workflow.
-
-### Intern, ABB :: 06.2015-11.2015
-
-Rewritten legacy code of an optimization system that not only used GWT but was
-also full of french variable names. Insisted on using technologies that I had no
-idea about which allowed me to learn Scala and React. Collaborated with
-scientists on project’s architecture.
-
-### Working Student, Nokia Networks :: 07.2014-05.2015
-
-Worked on an application that was tracking changes made inside XML files that
-were distributed over several VCSs. Got really burned during the first code
-review and became a programming style purist. Used Play together with Java which
-was also a valuable lesson.
+Thesis Student, SAP :: 02.2017-07.2017  
+Software Development Engineering Intern, Amazon :: 07.2016-09.2016  
+Software Developer, BrightIT :: 01.2016-06.2016  
+Intern, ABB :: 06.2015-11.2015  
+Working Student, Nokia Networks :: 07.2014-05.2015
 
 ## Education
 
@@ -108,14 +91,13 @@ to finals).
 
 ### Currently used ::
 
-Languages: C++, Java, Lua, Kotlin, Nix, Python  
-Tools: Bazel, Neovim, NixOS, Shell scripting
+Languages: Go, Lua, Nix  
+Tools: Amp, Bazel, GCP, Neovim, NixOS, Shell scripting
 
 ### Had experience in the past (selected subset) ::
 
-Languages: Dart, Go, JavaScript, Scala  
-Tools: Apache Spark, AWS, GCP, Flutter, Kubernetes, Play Framework, PostgreSQL,
-React
+Languages: C++, Dart, Java, JavaScript, Typescript, Kotlin, Python, Scala  
+Tools: Apache Spark, AWS, Flutter, Kubernetes, Play Framework, PostgreSQL, React
 
 --------------------------------------------------------------------------------
 
