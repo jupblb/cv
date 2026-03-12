@@ -1,13 +1,19 @@
-cv.pdf: cv.md
-	cat cv.md | \
-		sed -e 's/::/$$\\\hfill$$/' | \
-		sed -e 's/\(-\{5,\}\)/$$\\vspace*{\\fill}$$\n\1/' | \
-		pandoc -H style.tex -o cv.pdf
+%.pdf: %.md filter.lua style.tex
+	pandoc -H style.tex --lua-filter=filter.lua -o $@ $<
+
+combined.pdf: resume.md cv.md filter.lua style.tex
+	pandoc -H style.tex --lua-filter=filter.lua -M combined -o .resume-combined.pdf resume.md
+	pandoc -H style.tex --lua-filter=filter.lua -M combined -o .cv-combined.pdf cv.md
+	pdfunite .resume-combined.pdf .cv-combined.pdf $@
+	rm -f .resume-combined.pdf .cv-combined.pdf
 
 clean:
 	rm -f *.pdf
 
 format:
-	pandoc -f markdown -s -t markdown --columns=80 cv.md -o cv.md
+	@for f in *.md; do \
+		pandoc --columns=80 --reference-links --standalone \
+			-f markdown -t markdown "$$f" > "$$f.tmp" && mv "$$f.tmp" "$$f"; \
+	done
 
 .PHONY: clean format
