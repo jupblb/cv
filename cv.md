@@ -18,11 +18,12 @@ urlcolor: blue
 
 ## Summary
 
-Software engineer with 10+ years of experience, currently a tech lead at
-Sourcegraph. I've worked across the stack --- from Kubernetes at Google to fraud
-systems at Waymo to code intelligence tooling. I have a psychology degree, a
-daughter, and I care about the human side of engineering as much as the
-technical one. I like communicating using walls of text, so here's one for you.
+Software engineer with 10+ years of versatile experience, currently a tech lead
+at Sourcegraph. I've worked across the stack (Kubernetes, Waymo One) in
+organizations of varying sizes (Big Tech, small startups). I have a psychology
+degree, a daughter, and I care about the human side of engineering as much as
+the technical one. I like communicating using walls of text, so here's one for
+you.
 
 ## Experience
 
@@ -30,25 +31,21 @@ technical one. I like communicating using walls of text, so here's one for you.
 
 I was drawn to Sourcegraph because I had been a heavy user of Code Search back
 at Alphabet. I knew some of the people who worked here, appreciated the culture
-of openness and its remote-first approach. When I joined, I learned that my team
-had been severely reduced, [another project] was consuming leadership attention,
-and a lot of people were about to leave. Then, after my tech lead and manager
-were no longer around, the business direction shifted - said project was
-separated, and suddenly a lot of resources were funneled into my part of the
-product.
+of openness and its remote-first approach. But this company was severely
+affected by [AI hype] and this resulted in major organizational changes.
 
 This way I very quickly and unexpectedly became the tech lead for the Code
 Intelligence product area. My responsibilities stretch from improving Code
-Navigation UX to leading the effort around [SCIP] - a language-agnostic protocol
+Navigation UX to leading efforts around [SCIP] - a language-agnostic protocol
 for indexing source code. If you happen to be a user of our product, I'd love to
 hear your feedback about what you'd like to see improved.
 
 Examples of the projects I've led so far:
 
-1.  Established an independent organization around the SCIP protocol and related
-    code indexer implementations, in partnership with Meta and Uber. We work
-    together on improving the software ecosystem, making it work at the scale of
-    Big Tech companies.
+1.  Established [an independent organization] around the SCIP protocol and
+    related code indexer implementations, in partnership with Meta and Uber. We
+    work together on improving the software ecosystem, making it work at the
+    scale of Big Tech companies.
 2.  Introduced UX features that blend our code search agent with the traditional
     code navigation experience.
 3.  Continued support of our largest customers: Stripe, Uber, Apple, etc. Many
@@ -103,7 +100,7 @@ where I would spend the next five years at Alphabet.
     In Q1 2023 my daughter was born, my GKE team was disbanded (reorg), and I
     found myself looking for a new project. It was also the time of Google's
     first mass layoffs, so options were scarce. I ultimately decided to take
-    advantage of my situation and spent half a year working on [a non-profit
+    advantage of my situation to spend half a year working on [a non-profit
     project]. A very refreshing experience - I'm grateful I had the opportunity.
 
     We worked on a Flutter app for young entrepreneurs to find mentors who would
@@ -295,7 +292,7 @@ proactively.
 
 I tend to pick up whatever is needed for the job, so this is not exhaustive. In
 the age of LLMs, I don't think a list of technologies should matter that much -
-but here it is, so that recruites can stop bothering me.
+but here it is, so that recruiters can stop bothering me.
 
 -   **Current:** Go, Java, C++, TypeScript, Docker, Lua, Svelte, PostgreSQL,
     NixOS, Bazel, Git, Linux, Shell scripting, Protocol Buffers, tree-sitter,
@@ -377,8 +374,9 @@ finish."
 -   Using NixOS since 2019, enjoying self-hosting.
 -   Fond of mountain hiking.
 
-  [another project]: https://ampcode.com
+  [AI hype]: https://ampcode.com
   [SCIP]: https://scip-code.org
+  [an independent organization]: https://sourcegraph.com/blog/the-future-of-scip
   [a non-profit project]: https://blog.google/intl/en-mena/company-news/outreach-initiatives/micromentor-googleorg-mena/
   [external test infrastructure]: https://github.com/kubernetes/perf-tests
   [google/gtasks-md]: https://github.com/google/gtasks-md
