@@ -90,6 +90,12 @@ If the check script reports a status other than `"good"`, adjust `resume.md`:
 
 After each edit, rebuild and re-check. Repeat until `status` is `"good"`.
 
+If after 3 failed iterations the status is still not `"good"`, use the `look_at`
+tool on `resume.pdf` to visually inspect the rendered output. This helps identify
+issues that the script alone cannot catch, such as awkward line breaks, uneven
+spacing, or content that could be reflowed differently. Use the visual feedback
+to guide your next edit.
+
 ### Important constraints
 
 -   The resume MUST use the same style as `cv.md`: same `style.tex`, same
