@@ -19,6 +19,8 @@ Use `web_search` and `read_web_page` to gather information about:
 -   The company's products, mission, and engineering culture
 -   The specific role requirements, tech stack, and responsibilities
 -   What the company values in candidates
+-   If you can't access the web page ask the user to provide the job offer as
+    PDF.
 
 ### Step 2: Read the full CV
 
@@ -91,10 +93,10 @@ If the check script reports a status other than `"good"`, adjust `resume.md`:
 After each edit, rebuild and re-check. Repeat until `status` is `"good"`.
 
 If after 3 failed iterations the status is still not `"good"`, use the `look_at`
-tool on `resume.pdf` to visually inspect the rendered output. This helps identify
-issues that the script alone cannot catch, such as awkward line breaks, uneven
-spacing, or content that could be reflowed differently. Use the visual feedback
-to guide your next edit.
+tool on `resume.pdf` to visually inspect the rendered output. This helps
+identify issues that the script alone cannot catch, such as awkward line breaks,
+uneven spacing, or content that could be reflowed differently. Use the visual
+feedback to guide your next edit.
 
 ### Important constraints
 
