@@ -1,7 +1,6 @@
 ---
 author-meta: Michal Kielbowicz, Software Engineer
 colorlinks: true
-email: michal@kielbowi.cz
 fontsize: 11pt
 geometry:
 - margin=15mm
@@ -9,7 +8,6 @@ github: jupblb
 lang: en-US
 linkedin: mkielbowicz
 pagestyle: empty
-phone: +48 572 752 739
 title-meta: Michal Kielbowicz CV
 urlcolor: blue
 ---

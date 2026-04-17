@@ -15,6 +15,9 @@ jobs:
     - uses: DeterminateSystems/determinate-nix-action@v3
     - uses: DeterminateSystems/magic-nix-cache-action@v13
     - run: nix develop --command make cv.pdf
+      env:
+        EMAIL: ${{ secrets.EMAIL }}
+        PHONE: ${{ secrets.PHONE }}
     - run: gh release delete latest --yes --cleanup-tag || true
       env:
         GH_TOKEN: ${{ github.token }}

@@ -1,9 +1,17 @@
+PANDOC_FLAGS = -H style.tex --lua-filter=filter.lua
+ifdef EMAIL
+  PANDOC_FLAGS += -M email="$(EMAIL)"
+endif
+ifdef PHONE
+  PANDOC_FLAGS += -M phone="$(PHONE)"
+endif
+
 %.pdf: %.md filter.lua style.tex
-	pandoc -H style.tex --lua-filter=filter.lua -o $@ $<
+	pandoc $(PANDOC_FLAGS) -o $@ $<
 
 combined.pdf: resume.md cv.md filter.lua style.tex
-	pandoc -H style.tex --lua-filter=filter.lua -M combined -o .resume-combined.pdf resume.md
-	pandoc -H style.tex --lua-filter=filter.lua -M combined -o .cv-combined.pdf cv.md
+	pandoc $(PANDOC_FLAGS) -M combined -o .resume-combined.pdf resume.md
+	pandoc $(PANDOC_FLAGS) -M combined -o .cv-combined.pdf cv.md
 	pdfunite .resume-combined.pdf .cv-combined.pdf $@
 	rm -f .resume-combined.pdf .cv-combined.pdf
 
