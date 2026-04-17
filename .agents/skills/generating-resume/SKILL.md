@@ -31,21 +31,39 @@ Read `cv.md` to understand all available experience, projects, and skills.
 Create `resume.md` by selecting and adapting content from `cv.md`:
 
 -   Keep the same YAML frontmatter format as `cv.md`
+
 -   Keep the same Markdown structure: H1 for name, H2 for sections, H3 for
     positions
+
 -   Use the same `[date]{.date}` syntax for dates
+
 -   Use the same reference link style for URLs
+
 -   Keep the contact info metadata (email, phone, linkedin, github)
+
 -   Do NOT include a Summary section
+
 -   Select only the most relevant positions from Experience
+
 -   For each selected position, pick only the most relevant details and
     achievements for this specific role
+
 -   In the Technologies section, prioritize technologies relevant to the job
     offer. If space remains, add other major/well-known technologies (e.g.,
     prefer Python over Puppet)
+
 -   Include only relevant Education entries
+
 -   Do NOT invent or fabricate any information --- only use what exists in
     `cv.md`, rephrased or condensed as needed
+
+-   Always end `resume.md` with the following footnote (after all other
+    content):
+
+    ``` markdown
+    \centering \footnotesize This resume was AI-generated for this specific job
+    offer from a manually written [CV](https://github.com/jupblb/cv).
+    ```
 
 ### Step 4: Build and verify the PDF
 
