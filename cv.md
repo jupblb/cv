@@ -30,7 +30,7 @@ you.
 I was drawn to Sourcegraph because I had been a heavy user of Code Search back
 at Alphabet. I knew some of the people who worked here, appreciated the culture
 of openness and its remote-first approach. But this company was severely
-affected by [AI hype] and this resulted in major organizational changes.
+affected by [the rise of AI coding tools] and this resulted in major organizational changes.
 
 This way I very quickly and unexpectedly became the tech lead for the Code
 Intelligence product area. My responsibilities stretch from improving Code
@@ -372,7 +372,7 @@ finish."
 -   Using NixOS since 2019, enjoying self-hosting.
 -   Fond of mountain hiking.
 
-  [AI hype]: https://ampcode.com
+  [the rise of AI coding tools]: https://ampcode.com
   [SCIP]: https://scip-code.org
   [an independent organization]: https://sourcegraph.com/blog/the-future-of-scip
   [a non-profit project]: https://blog.google/intl/en-mena/company-news/outreach-initiatives/micromentor-googleorg-mena/
